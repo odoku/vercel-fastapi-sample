@@ -7,5 +7,11 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
  
+[dev-packages]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+
 [requires]
 python_version = "3.9"
